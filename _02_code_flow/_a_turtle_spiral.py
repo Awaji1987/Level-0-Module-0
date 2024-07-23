@@ -14,23 +14,23 @@ if __name__ == '__main__':
     window.bgcolor('white')
     
     # Make a new turtle
-    
+    foxy = turtle.Turtle()
     # This code sets our shape to a turtle
-    
+    foxy.shape('turtle')
     # Set your turtle's speed (0=fastest, 1=slowest, 10=faster)
-    
+    foxy.speed(0)
     # Set your turtle's color using .color('green')
-    
+    foxy.color('red')
     # Use a loop to repeat a the code below 50 times
-        
+    for i in range(50):
         # Set the turtle color to a random color
-
+            foxy.color(get_random_color())
         # Move the turtle (5*i) pixels. 'i' is the loop variable
-        
-        # Turn the turtle (360/7) degrees to the right
-         
+            foxy.goto(5)
+         # Turn the turtle (360/7) degrees to the right
+            foxy.goto(360, 7)
         # Change the turtle width to 'i' (the loop variable)
-        
+            foxy.width(i)
         # Check the pattern against the picture in the recipe. If it matches, you are done!
     
 # ===================== DO NOT EDIT THE CODE BELOW ============================
