@@ -26,12 +26,12 @@ if __name__ == '__main__':
         # Set the turtle color to a random color
             foxy.color(get_random_color())
         # Move the turtle (5*i) pixels. 'i' is the loop variable
-            foxy.goto(5)
+            foxy.forward(5*i)
          # Turn the turtle (360/7) degrees to the right
-            foxy.goto(360, 7)
+            foxy.right(360/7)
         # Change the turtle width to 'i' (the loop variable)
             foxy.width(i)
         # Check the pattern against the picture in the recipe. If it matches, you are done!
-    
+
 # ===================== DO NOT EDIT THE CODE BELOW ============================
     turtle.done()
